@@ -1,0 +1,35 @@
+body {
+  background-color: #f8f9fa;
+}
+
+   .card {
+  margin-top: 50px;
+  border: 2px solid transparent; /* Set initial border */
+  animation: glow-border 2s infinite alternate; /* Apply glow animation */
+}
+
+@keyframes glow-border {
+  0% {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.7); /* Start glow effect */
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.9); /* End glow effect */
+  }
+}
+
+.card-header {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color:  #ffb6c1;
+  border-color:  #ffb6c1;;
+}
